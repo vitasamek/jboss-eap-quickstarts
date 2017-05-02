@@ -26,7 +26,7 @@ public class HelloService {
 
     String createHelloMessage(String name) {
 	final String hostname = System.getenv("HOSTNAME");
-        return "Hello " + name + " from " + hostname + "!";
+        return "Hi " + name + " from " + hostname + "!";
     }
 
 }
